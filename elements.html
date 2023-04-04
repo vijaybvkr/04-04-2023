@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<p id="one">good morning</p>
+<p id="two">another paragraph tag</p>
+<p id="three">this is happiest momemt</p>
+<span id="showData"></span>
+<input id="username"/>
+<button onclick="demo()">Submit</button>
+<script type="text/javascript">
+	function demo() {
+	var para=document.getElementById("one").innerHTML
+	console.log(para)
+	var para1=document.getElementById("two").innerHTML
+	console.log(para1)
+	var stage=document.getElementById("three").innerHTML
+	console.log(stage)
+	var user=document.getElementById("username").value
+	document.getElementById("showData").innerHTML="ReactJS"
+	console.log(user)
+}
+</script>
+</body>
+</html>
